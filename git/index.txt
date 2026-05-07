@@ -16,4 +16,12 @@ La commande git log permet de voir la liste des commits
 La commande git log --stat permet de voir quels fichiers ont été validés(modifiés dans .git) à chaque commit
 
 
+La commande git tag <nomTag> permet de creer un tagname (etiquette) légère pour marquer les points importants dans l'historique de notre projet
+Pour créer une étiquette annotée(qui est recommandée) on utilise git tag -a <nomTag> -m "message" 
+La commade git tag <nomTage> "codeHexDuCommit" permet de donner une étiquette à un commit existant
+la commande git tag permet de voir la liste des etiquettes déjà donnée
+La commande git show <nomTage> permet de voir les infos sur l'etiquettenomTage
+Pour ajouter une étiquette à votre dépot distant on a git pus origin <nomTage>
+Pour envoyer plusieurs tags on utilise git push --tags
+
 La commande pour creer et basculer dans une nouvele bracnh est git checkout -b nombranch.
