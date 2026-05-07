@@ -1,0 +1,8 @@
+ . Points saillants de la syntaxe : une feuille de style externe via <link>, des balises sémantiques ( <header>, <main>, <section>), et des utilitaires d’espacement simples.
+ title pour 
+ data
+
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+Référencement du SEO

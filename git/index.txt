@@ -1,0 +1,11 @@
+La commande pour configurer un email sur git est git config --global user.email "wasfadetonoukoin@gmail.com"
+La commande pour configurer un nom utilisateur sur git est git config --global user.name "wasfade"
+La commande pour voir la liste des configuration d'un git est git config --list
+La commande git status permet de voir les fichiers qui sont dans la zone de
+préparation et ceux qui doivent être ajoutés à la zone de préparation. la
+la commande git restore --staged <nomfichier> permet de retirer le fichier <nomfichier> de la zone de Préparation.
+
+Un commit est comme un point de sauvegarde dans votre projet. Un commit enregistre un instantanné de vos fichiers avec un message de modification d'illustration précis.
+La commande git commit -m "message" valide l'ensemble des modifications effectuées sur tous les fichiers préparés.
+La commande git commit -a -m "message" Valide l'ensemble des modifications effectuées su tousles fichiers du projet
+La commande git log permet de voir la liste des commits
