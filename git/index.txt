@@ -11,6 +11,7 @@ la commande git restore --staged <nomfichier> permet de retirer le fichier <nomf
 Un commit est comme un point de sauvegarde dans votre projet. Un commit enregistre un instantanné de vos fichiers avec un message de modification d'illustration précis.
 La commande git commit -m "message" valide l'ensemble des modifications effectuées sur tous les fichiers préparés.
 La commande git commit -a -m "message" Valide l'ensemble des modifications effectuées su tousles fichiers du projet. Mais elle valide unique ment les fichiers déjà suivis(déjà préparer une fois. Si vous creer un fichier nouvellement avec git commit -a -m "message" le nouveau fichier n'est sauvegarder.)
+La commande git reset --soft HEAD~1 permet d'annuler le dernier commit
 La commande git log permet de voir la liste des commits
 
 
