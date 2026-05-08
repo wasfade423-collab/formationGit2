@@ -30,4 +30,4 @@ La pile de stockage est une suite d'ensemble de modifications auxquelles s'ajout
 
 La commande pour creer et basculer dans une nouvelle bracnh est git checkout -b nombranch.
 
-git diiff voir les modi
+git diiff voir les La diffrénce entre deux commits par exmple.
