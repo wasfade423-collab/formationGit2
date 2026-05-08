@@ -28,6 +28,6 @@ Pour envoyer plusieurs tags on utilise git push --tags
 La commande git stash -u est utilisée pour sauvegarder le travail d'une branch avant de switcher vers une autre.
 La pile de stockage est une suite d'ensemble de modifications auxquelles s'ajoutent les modifications à chaque execution de git stash
 
-La commande pour creer et basculer dans une nouvele bracnh est git checkout -b nombranch.
+La commande pour creer et basculer dans une nouvele bracnh est git checkout -b nombranch. est prèt
 
 git diiff voir les modi
