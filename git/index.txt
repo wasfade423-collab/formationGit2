@@ -1,5 +1,5 @@
 La fonction principale de Git est de suivre les différentes versions d’un projet.
-
+Un commit représente un ensemble cohérent de modifications sur le projet.
 La commande pour configurer un email sur git est git config --global user.email "wasfadetonoukoin@gmail.com"
 La commande pour configurer un nom utilisateur sur git est git config --global user.name "wasfade"
 
