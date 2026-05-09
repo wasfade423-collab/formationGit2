@@ -33,3 +33,5 @@ La pile de stockage est une suite d'ensemble de modifications auxquelles s'ajout
 La commande pour creer et basculer dans une nouvelle bracnh est git checkout -b nomBranch.
 
 git diiff voir les La diffrénce entre deux commits par exmple.
+
+Dans Git, la fusion consiste à combiner les modifications d'une branche dans une autre.
