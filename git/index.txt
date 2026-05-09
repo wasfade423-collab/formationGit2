@@ -30,6 +30,7 @@ Pour envoyer plusieurs tags on utilise git push --tags
 La commande git stash -u est utilisée pour sauvegarder le travail d'une branch avant de switcher vers une autre.
 La pile de stockage est une suite d'ensemble de modifications auxquelles s'ajoutent les modifications à chaque execution de git stash
 La commande pour ajuter un message à un sauvegarde stahs est git stash push -m "message"
+La commande pour restaurer ce qui est sauvegardé à un ordre donné est git stash apply stash@[orderEnChiffre]
 
 La commande pour creer et basculer dans une nouvelle bracnh est git checkout -b nomBranch.
 
@@ -38,6 +39,7 @@ git diiff voir les La diffrénce entre deux commits par exmple.
 Dans Git, la fusion consiste à combiner les modifications d'une branche dans une autre.
 
 La commande git merge <nombranch> permet de fusionner la dans laquelle la commande est executer avec la branche <nombranch>.
+La commande pour couper le processus d'un merge en cours est  git merge --abort
 
 La commande pour supprimer une branch est git branch -d <nombranch>
 
