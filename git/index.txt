@@ -40,7 +40,9 @@ Dans Git, la fusion consiste à combiner les modifications d'une branche dans un
 
 La commande git merge <nombranch> permet de fusionner la dans laquelle la commande est executer avec la branche <nombranch>.
 La commande pour couper le processus d'un merge en cours est  git merge --abort
+La commande git merge --squash <nomBranch> nettoie tout les commits de nom Branch et le funsionne en 1 gros commit.
 
 La commande pour supprimer une branch est git branch -d <nombranch>
 
 Il faut mesurer la valeur.
+La commande pour creer et basculer dans une nouvele bracnh est git checkout -b nombranch.
