@@ -35,3 +35,6 @@ La commande pour creer et basculer dans une nouvelle bracnh est git checkout -b 
 git diiff voir les La diffrénce entre deux commits par exmple.
 
 Dans Git, la fusion consiste à combiner les modifications d'une branche dans une autre.
+
+La commande git merge <nombranch> permet de fusionner la dans laquelle la commande est executer avec la branche <nombranch>.
+
