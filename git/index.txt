@@ -43,4 +43,4 @@ La commande pour couper le processus d'un merge en cours est  git merge --abort
 
 La commande pour supprimer une branch est git branch -d <nombranch>
 
-Il faut mesurer
+Il faut mesurer la valeur.
