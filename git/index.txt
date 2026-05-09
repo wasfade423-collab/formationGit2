@@ -38,3 +38,5 @@ Dans Git, la fusion consiste à combiner les modifications d'une branche dans un
 
 La commande git merge <nombranch> permet de fusionner la dans laquelle la commande est executer avec la branche <nombranch>.
 
+La commande pour supprimer une branch est git branch -d <nombranch>
+
