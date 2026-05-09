@@ -40,3 +40,4 @@ La commande git merge <nombranch> permet de fusionner la dans laquelle la comman
 
 La commande pour supprimer une branch est git branch -d <nombranch>
 
+Il faut mesurer
