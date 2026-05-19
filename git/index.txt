@@ -46,3 +46,13 @@ La commande pour supprimer une branch est git branch -d <nombranch>
 
 Il faut mesurer la valeur.
 La commande pour creer et basculer dans une nouvele bracnh est git checkout -b nombranch.
+
+
+Un workflow git c'est une recommandation sur la façon d'utiliser git pour accomplir un travail de façon cohérente et productive. 
+Git utilise un flux de travail distribué qui vous permet de travailler sur votre code, de préparer les modifications et de les enregistrer dans votre dépôt local avant de les partager avec d'autres.
+    Exemple de Workflow: centralisé, de branche de fonctionnalité, Gitflow, de duplication
+
+git restore <file>          Annuler les modifications dans votre répertoire de travail (avant la mise en scène).
+git restore --staged <file> Retirer un fichier de la zone de préparation (le déplacer hors de la zone de préparation).
+git reset HEAD~             Annuler votre dernière validation (conserve les modifications dans votre répertoire de travail).
+git commit --amend          Modifiez le dernier message de commit ou ajoutez des fichiers à votre dernier commit.
